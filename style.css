@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url(./fonts/Nunito-Regular.ttf);
+}
+@font-face {
+    font-family: 'Noto Sans';
+    src: url(./fonts/NotoSans-Regular.ttf);
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+
+#section1{
+    background-image: url(./images/background.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 1156px;
+}
