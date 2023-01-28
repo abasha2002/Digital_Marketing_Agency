@@ -10,16 +10,223 @@
     box-sizing: border-box;
 }
 body{
-    margin: 0px;
+    margin: 0;
 }
 
 #section1{
     background-image: url(./images/background.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: center;
     height: 1156px;
+    position: relative;
+}
+
+#sec1_div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1206px;
+    height: 81px;
+}
+
+.logo{
+    margin-right: auto;
+    margin-top: 73px;
+}
+.navigation{
+    display: flex;
+}
+
+.nav_div1{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin-top: 91px;
+}
+
+.nav_div1 > a{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #292930;
+
+}
+.nav_div1 > a:hover{
+    cursor: pointer;
+}
+
+.dropdn {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #292930;
+}
+.dropdn:hover{
+    cursor: pointer;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 2px;
+  }
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.login{
+    margin-top: 92px;
+}
+.login > a{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    text-transform: capitalize;
+    margin-left: 58px;
+}
+.login > a:hover{
+    cursor: pointer;
+}
+
+#get_started{
+    width: 173px;
+    height: 64px;
+    background: #292930;
+    border-radius: 7px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-left: 43px;
+}
+#get_started:hover{
+    cursor: pointer;
 }
 
 #img1{
-    position:static;
+    position: absolute;
+    left: 126px;
+    top: 192px;
+}
+
+#agency{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 156.5%;
+    letter-spacing: 0.135em;
+    text-transform: uppercase;
+    color: #292930;
+    margin-right: auto;
+    width: 1206px;
+}
+
+#agency > span{
+    color: #FEC90C;
+    letter-spacing: 0.135em;
+}
+.texts > h3{
+    width: 740px;
+    height: 231px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 110.5%;
+    color: #292930;
+    margin-top: 28px;
+    margin-bottom: 34px;
+}
+.texts > h3 > b{
+    color:#5956E8;
+}
+#lorem{
+    width: 593px;
+    height: 56px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156.5%;
+    color: #555555;
+}
+
+.buttons{
+    width: 375px;
+}
+.buttons > button{
+    width: 173px;
+    height: 64px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #292930;
+}
+
+#button1{
+    margin-right: 20px;
+    border: 1.5px solid #292930;
+    border-radius: 7px;
+    background: transparent;
+}
+#button2{
+    border: 1.5px solid #292930;
+    border-radius: 7px;
+    background: transparent;
+}
+#button1:hover{
+    background-color: #292930;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+#button2:hover{
+    background-color: #292930;
+    color: #FFFFFF;
+    cursor: pointer;
 }
