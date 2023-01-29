@@ -14,11 +14,12 @@ body{
 }
 
 #section1{
-    background-image: url(./images/background.png);
-    background-repeat: no-repeat;
-    background-position: center;
+    background: linear-gradient(111.23deg, #E9F7FF 9.95%, #FFDBD5 85.17%);
     height: 1156px;
     position: relative;
+}
+#circle{
+    position: absolute;
 }
 
 #sec1_div1{
@@ -42,6 +43,7 @@ body{
     justify-content: space-between;
     width: 500px;
     margin-top: 91px;
+    z-index: 1;
 }
 
 .nav_div1 > a{
@@ -52,12 +54,38 @@ body{
     line-height: 160%;
     text-transform: capitalize;
     color: #292930;
-
+    position: relative;
+}
+.nav_div1 > a::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0px;
+    width: 0%;
+    height: 5px;
+    background-color: #5956E8;
+    transition: all .2s;
 }
 .nav_div1 > a:hover{
     cursor: pointer;
 }
-
+.nav_div1 > a::after{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0px;
+    width: 0%;
+    height: 5px;
+    background-color: #FFDC60;
+    transition: all .2s;
+}
+.nav_div1 > a:hover::before{
+    width: 100%;
+    transition-delay: .1s;
+}
+.nav_div1 > a:hover::after{
+    width: 50%;
+}
 .dropdn {
     font-family: 'Nunito';
     font-style: normal;
@@ -111,6 +139,7 @@ body{
 
 .login{
     margin-top: 92px;
+    z-index: 1;
 }
 .login > a{
     font-family: 'Nunito';
@@ -120,9 +149,37 @@ body{
     line-height: 160%;
     text-transform: capitalize;
     margin-left: 58px;
+    position: relative;
 }
 .login > a:hover{
     cursor: pointer;
+}
+.login > a::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0px;
+    width: 0%;
+    height: 5px;
+    background-color: #5956E8;
+    transition: all .2s;
+}
+.login > a::after{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0px;
+    width: 0%;
+    height: 5px;
+    background-color: #FFDC60;
+    transition: all .2s;
+}
+.login > a:hover::before{
+    width: 100%;
+    transition-delay: .1s;
+}
+.login > a:hover::after{
+    width: 50%;
 }
 
 #get_started{
@@ -143,7 +200,6 @@ body{
 #get_started:hover{
     cursor: pointer;
 }
-
 #img1{
     position: absolute;
     left: 126px;
@@ -195,6 +251,8 @@ body{
 
 .buttons{
     width: 375px;
+    position: relative;
+    z-index: 1;
 }
 .buttons > button{
     width: 173px;
@@ -213,12 +271,11 @@ body{
     margin-right: 20px;
     border: 1.5px solid #292930;
     border-radius: 7px;
-    background: transparent;
+    background-color: transparent;
 }
 #button2{
     border: 1.5px solid #292930;
     border-radius: 7px;
-    background: transparent;
 }
 #button1:hover{
     background-color: #292930;
