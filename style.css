@@ -363,6 +363,7 @@ body{
     text-transform: capitalize;
     color: #292930;
 }
+
 .butn{
     margin-left: auto;
     margin-top: auto;
@@ -470,4 +471,74 @@ body{
     justify-content: space-between;
     width: 1200px;
     margin-top: 90px;
+}
+
+#section3{
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+}
+
+.sec3_div1{
+    width: 473px;
+    display: flex;
+    justify-content: center;
+    margin-top: 94px;
+}
+
+.sec3_div2{
+    width: 1200;
+    text-align: center;
+}
+
+.dollar{
+    width: 88px;
+    height: 88px;
+    border-radius: 100%;
+    background-color: #FFDC60;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 156.5%;
+    letter-spacing: 0.135em;
+    text-transform: uppercase;
+    color:#292930;
+    margin-top: 34px;
+}
+.price > span{
+    color:#5956E8;
+    letter-spacing: 0.135em;
+}
+
+.plan{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 110.5%;
+    text-align: center;
+    color: #292930;
+    margin-top: 14px;
+}
+
+.containers{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 41px;
+}
+
+.container{
+    width: 389px;
+    height: 554px;
+    background: #F7F7F7;
+    border: 1px solid #E2E2E2;
+    border-radius: 10px;
 }
