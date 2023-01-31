@@ -740,3 +740,184 @@ input{
     color: #292930;
     cursor: pointer;
 }
+.footer_div{
+    display: flex;
+}
+
+.footer_nav{
+    margin-left: 99px;
+}
+.contact{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 110.5%;
+    color: #FFFFFF;
+    margin-top: 0px;
+    margin-bottom: 17px;
+}
+.contact > span{
+    margin-right: 5px;
+}
+
+.phone_number{
+    width: 255px;
+    height: 62px;
+    background: #3C3C45;
+    border-radius: 7px;
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 156.5%;
+    color: #FFDC60;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156.5%;
+    color: #FFFFFF;
+    margin-top: 17px;
+    margin-bottom: 0px;
+}
+
+.location{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 110.5%;
+    color: #FFFFFF;
+}
+.location > span{
+    margin-right: 7px;
+}
+
+.information{
+    width: 297px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156.5%;
+    color: #FFFFFF;
+}
+
+.loc{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156.5%;
+    text-decoration-line: underline;
+    text-decoration-color: #FFDC60;
+    color: #FFDC60;
+    margin-bottom: 0px;
+}
+.footer_line1{
+    width: 702px;
+    border: 1px solid #727274;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.red_boards{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 110.5%;
+    color: #FFFFFF;
+    margin-top: 0px;
+    margin-bottom: 32px;
+}
+.red_boards > span{
+    margin-right: 7px;
+    margin-top: 10px;
+}
+
+.links1{
+    width: 120px;
+}
+.links1 > a{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 211.5%;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: block;
+}
+
+.pen{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 110.5%;
+    color: #FFFFFF;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.links2 > a{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 211.5%;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: block;
+}
+
+.follows{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 110.5%;
+    color: #FFFFFF;
+}
+
+.links3 > a{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 211.5%;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: block;
+}
+
+.footer_line2{
+    width: 702px;
+    border: 1px solid #727274;
+    margin-top: 50px;
+    margin-bottom: 17px;
+}
+
+.last{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 211.5%;
+    color: #FFFFFF;
+    margin-left: 48px;
+
+}
