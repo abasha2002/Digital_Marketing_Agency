@@ -477,6 +477,7 @@ body{
     display: flex;
     justify-content: center;
     background-color: #FFFFFF;
+    height: ;
 }
 
 .sec3_div1{
@@ -545,6 +546,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 170px;
 }
 
 .cont_div{
@@ -621,4 +623,51 @@ body{
     text-transform: capitalize;
     color: #FFFFFF;
     margin-top: 30px;
+}
+
+.popular{
+    width: 89px;
+    height: 40px;
+    background: #FFDC60;
+    border-radius: 9px;
+    border: none;
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 244%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #292930;
+    margin-right: 20px;
+}
+
+.container:hover{
+    background-color: #292930;
+}
+.container:hover .p1{
+    color: #FFFFFF;
+}
+.container:hover .starter_button{
+    background-color: #F6F6F6;
+    color: #292930;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #292930;
+    height: 1034px;
+}
+
+.footer_container{
+    width: 399px;
+    height: 652.16px;
+    background: #3C3C45;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
