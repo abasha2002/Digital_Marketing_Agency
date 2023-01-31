@@ -541,4 +541,84 @@ body{
     background: #F7F7F7;
     border: 1px solid #E2E2E2;
     border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont_div{
+    width: 313px;
+}
+.starter{
+    width: 83px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 110.5%;
+    color: #292930;
+    margin-bottom: 7px;
+    margin-left: 37px;
+}
+.per_month{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 110.5%;
+    text-align: center;
+    color: #292930;
+    margin-top: 0px;
+    margin-left: 34px;
+}
+
+.per_month > span{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 244%;
+    text-align: center;
+    color: #555555;
+    width: 96px;
+}
+
+.line{
+    width: 302px;
+    border: 1px solid #D3D3D3;
+}
+.starter_pack{
+    width: 224px;
+    text-align: left;
+}
+.starter_pack > p > span{
+    margin-right: 9px;
+}
+.starter_pack > p{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 244%;
+    color: #555555;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.starter_button{
+    width: 313px;
+    height: 64px;
+    background: #292930;
+    border-radius: 7px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-top: 30px;
 }
