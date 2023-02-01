@@ -108,6 +108,7 @@ body{
     padding: 2px;
     width: 5px;
     height: 5px; 
+    margin-top: -2px;
 }
 .arrowdiv{
     background-color: #000000;
