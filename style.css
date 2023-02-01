@@ -41,7 +41,7 @@ body{
 
 .nav_div1{
     display: flex;
-    justify-content: space-between;
+    gap: 58px;
     width: 500px;
     margin-top: 91px;
     z-index: 1;
@@ -95,17 +95,31 @@ body{
     line-height: 160%;
     text-transform: capitalize;
     color: #292930;
+    display: flex;
 }
 .dropdn:hover{
     cursor: pointer;
 }
 
 .arrow {
-    border: solid black;
-    border-width: 0 2px 2px 0;
+    border: solid white;
+    border-width: 0 1px 1px 0;
     display: inline-block;
     padding: 2px;
-  }
+    width: 5px;
+    height: 5px; 
+}
+.arrowdiv{
+    background-color: #000000;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9px;
+    margin-left: 7px;
+}
 .down {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
@@ -119,10 +133,11 @@ body{
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: linear-gradient(111.23deg, #E9F7FF 9.95%, #FFDBD5 85.17%);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    border-radius: 10px;
 }
   
   .dropdown-content a {
