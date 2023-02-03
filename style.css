@@ -66,6 +66,7 @@ body{
     height: 5px;
     background-color: #5956E8;
     transition: all .2s;
+    border-radius: 5px;
 }
 .nav_div1 > a:hover{
     cursor: pointer;
@@ -83,9 +84,11 @@ body{
 .nav_div1 > a:hover::before{
     width: 100%;
     transition-delay: .1s;
+    border-radius: 5px;
 }
 .nav_div1 > a:hover::after{
     width: 50%;
+    border-radius: 5px;
 }
 .dropdn {
     font-family: 'Nunito';
@@ -185,6 +188,7 @@ body{
     height: 5px;
     background-color: #5956E8;
     transition: all .2s;
+    border-radius: 5px;
 }
 .login > a::after{
     position: absolute;
@@ -194,7 +198,8 @@ body{
     width: 0%;
     height: 5px;
     background-color: #FFDC60;
-    transition: all .2s;
+    transition: all .2s;  
+    border-radius: 5px;
 }
 .login > a:hover::before{
     width: 100%;
